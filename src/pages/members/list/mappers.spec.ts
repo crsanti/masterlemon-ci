@@ -92,7 +92,7 @@ describe('pages/members/list/mappers specs', () => {
           avatarUrl: 'test avatar_url 2',
         },
       ];
-      expect(result).toEqual(expectedResult);
+      expect(result).not.toEqual(expectedResult);
     });
   });
 });
